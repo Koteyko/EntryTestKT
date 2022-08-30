@@ -15,8 +15,9 @@ unsigned int m_nok(unsigned int a, unsigned int b) {
 }
 
 int main() {
-	int nod = 4;
-	int nok = 80;
+	int nod;
+	int nok;
+	cin >> nod >> nok;
 	int min = INT_MAX;
 	int max = 0;
 
